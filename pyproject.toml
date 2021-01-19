@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stock-app"
+version = "0.1.0"
+description = "Short streamlit tutorial from https://www.youtube.com/watch?v=JwSS70SZdyM"
+authors = ["freeCodeCamp.org"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.0"
+yfinance = "^0.1.55"
+streamlit = "^0.74.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
